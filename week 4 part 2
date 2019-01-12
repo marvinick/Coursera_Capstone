@@ -1,0 +1,9 @@
+url = 'https://api.foursquare.com/v2/venues/explore?&client_id={}&client_secret={}&v={}&ll={},{}&radius={}&limit={}'.format(
+    CLIENT_ID, 
+    CLIENT_SECRET, 
+    VERSION, 
+    county_latitude, 
+    county_longitude, 
+    radius, 
+    LIMIT
+)
